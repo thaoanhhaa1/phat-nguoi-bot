@@ -1,11 +1,11 @@
 const bienSoXeList = [
   {
-    bienso: 'BIEN_SO_XE', // VÍ DỤ: 77F111111
+    bienso: '77F123456', // Biển số xe của bạn
   },
 ]
 
-function sendMessageToTelegram(message, botToken = 'BOT_TOKEN') {
-  var chatId = 'CHAT_ID';
+function sendMessageToTelegram(message, botToken = '<YOUR_BOT_TOKEN>') {
+  var chatId = '<YOUR_CHAT_ID>';
   
   var url = 'https://api.telegram.org/bot' + botToken + '/sendMessage';
   
